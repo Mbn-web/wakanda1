@@ -1,0 +1,141 @@
+/* General Reset */
+body, h2, form, input, button, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Base Styles */
+body {
+    /* Allow the body to grow with content and enable scrolling */
+    height: auto;
+    overflow: auto; /* Enable scrolling */
+    position: relative;
+    background-color: white; /* Set background color to white */
+}
+
+/* Apply Flexbox for Login Page */
+body.login-page {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height for login page */
+}
+
+/* Background Video */
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Login Container */
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+/* Login Container Heading */
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+/* Other styles for form elements */
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-container button:hover {
+    background: #0056b3;
+}
+
+/* Welcome Page */
+.welcome-page {
+    background-color: white; /* Set white background for the welcome page */
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: black; /* Adjust text color to ensure readability */
+    height: auto; /* Allow content to grow and enable scrolling */
+    padding-bottom: 50px; /* Optional, to give some space at the bottom */
+}
+
+.welcome-page h2 {
+    margin-bottom: 20px;
+}
+
+/* Photo Gallery */
+.photo-gallery {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.photo-gallery .photo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.photo-gallery .photo-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.photo-gallery .photo-item img {
+    width: 550px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-gallery .photo-item .description {
+    flex: 1;
+    margin: 0 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
