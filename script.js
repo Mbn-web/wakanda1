@@ -14,13 +14,13 @@ const users = [
 
 // Array of 50 images with descriptions
 const imageCollection = [
-    { src: `image/img1.jpg`, description: `This is vijay aana.` },
-    { src: 'image/img2.jpg', description: 'This is neeru' },
-    { src: 'image/img3.jpg', description: 'This is ' },
-    { src: 'image/img4.jpg', description: 'This is neeru' },
-    { src: 'image/img5.jpg', description: 'This is neeru' },
-    { src: 'image/img6.jpg', description: 'This is neeru' },
-    { src: 'image/img7.jpg', description: 'This is mbn' },
+    { src: `img1.jpg`, description: `This is vijay aana.` },
+    { src: 'img2.jpg', description: 'This is neeru' },
+    { src: 'img3.jpg', description: 'This is ' },
+    { src: 'img4.jpg', description: 'This is neeru' },
+    { src: 'img5.jpg', description: 'This is neeru' },
+    { src: 'img6.jpg', description: 'This is neeru' },
+    { src: 'img7.jpg', description: 'This is mbn' },
     { src: 'image/img8.jpg', description: 'This is neeru' },
     { src: 'image/img9.jpg', description: 'This is neeru' },
     { src: 'image/img10.jpg', description: 'This is neeru' },
